@@ -1,0 +1,10 @@
+# Pre build state
+FROM node:18 AS prebuild
+WORKDIR /app
+
+COPY ./docker/scripts/prepare-migrations.js /app
+COPY ./portal/scripts /app/scripts
+
+RUN mkdir ./db-scripts
+
+CMD ["node", "prepare-migrations.js"]
