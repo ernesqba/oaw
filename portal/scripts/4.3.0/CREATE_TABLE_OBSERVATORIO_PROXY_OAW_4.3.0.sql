@@ -4,4 +4,4 @@ CREATE TABLE observatorio_proxy (
   port varchar(5) NOT NULL
 );
 
-INSERT INTO observatorio_proxy (status, url, port) VALUES(1, '127.0.0.1', '18088');
+INSERT INTO observatorio_proxy (status, url, port) VALUES(0, '127.0.0.1', '18088');

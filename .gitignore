@@ -86,3 +86,10 @@ int-stop-and-clean.sh
 server.crt
 server.key
 
+**/db-scripts/**.sql
+**/fake-smtp-emails/**
+
+# Files to no ignore
+!Dockerfile.war
+!**/fake-smtp-emails/.gitkeep
+

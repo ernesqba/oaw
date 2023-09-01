@@ -1,0 +1,27 @@
+# build state
+FROM maven:3.9.3-eclipse-temurin-8-focal AS build
+
+WORKDIR /app
+
+# Copiamos los datos a la carpeta /app
+COPY . /app
+
+# Aquí se asume que tienes un archivo pom.xml y necesitas Maven para construir tu aplicación
+# Si no, puedes cambiar estos comandos para adaptarse a tu caso específico
+WORKDIR /app/oaw
+RUN mvn clean install -P docker -DskipTests
+
+# Etapa de producción
+FROM tomcat:8.5.73-jdk8-temurin
+
+# Eliminamos las aplicaciones por defecto de Tomcat
+RUN rm -rf /usr/local/tomcat/webapps/*
+
+# Copiamos el archivo WAR de la etapa de construcción
+COPY --from=build /app/portal/target/oaw.war /usr/local/tomcat/webapps/oaw.war
+
+# Exponemos el puerto 8080
+EXPOSE 8080
+
+# Inicio de Tomcat
+CMD ["catalina.sh", "run"]
