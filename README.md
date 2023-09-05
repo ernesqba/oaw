@@ -14,7 +14,7 @@ Thanks to the continuous efforts to automate the containerization methodology as
 1. Clone the repository:
 
 ```
-git clone https://github.com/ernesqba/ecommerce-app.git
+git clone https://github.com/ernesqba/oaw.git
 ```
 
 2. Change to the project directory:
@@ -28,16 +28,18 @@ cd oaw
 cd docker
 ```
 
-### Stopping the Services
+4. Start the services
 
-To stop the services, you can use the following command in the same directory:
+```
+docker-compose up
+```
 
+5. Stop the services
 ```
 docker-compose stop
 ```
 
-If you wish to not only stop the services but also remove them, the following command can be utilized:
-
+6. Delete the containers
 ```
 docker-compose down
 ```
@@ -53,7 +55,7 @@ During the setup, you might encounter issues related to text string encoding in 
 To tackle this, a manual SH script has been designed to analyze and convert files with ASCII or Latin-1 encodings to UTF-8. This script is recommended only in situations where a related error occurs during the creation of a custom application image. To execute this script, navigate to the `/docker/scripts/` directory and run the following command:
 
 ```
-utf-8-convert.sh
+sh utf-8-convert.sh
 ```
 
 ## Conclusion
@@ -61,7 +63,7 @@ utf-8-convert.sh
 We appreciate your collaboration in this project. Feel free to report any issues or contribute to further enhancements.
 
 Thank you!
-```
+
 
 
 # OLD README => OAW
