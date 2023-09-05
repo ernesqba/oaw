@@ -1,4 +1,70 @@
-# OAW
+# NEW README => OAW DOCKER
+
+## Introduction
+
+Thanks to the continuous efforts to automate the containerization methodology as much as possible, setting up and managing the project has become significantly simplified. In this README, you will find guidelines to get the project up and running, including troubleshooting a known text encoding issue.
+
+## Prerequisites
+
+- Docker
+- Docker Compose
+
+## Getting Started
+
+1. Clone the repository:
+
+```
+git clone https://github.com/ernesqba/ecommerce-app.git
+```
+
+2. Change to the project directory:
+```
+cd oaw
+```
+
+3. Change to the docker directory:
+
+```
+cd docker
+```
+
+### Stopping the Services
+
+To stop the services, you can use the following command in the same directory:
+
+```
+docker-compose stop
+```
+
+If you wish to not only stop the services but also remove them, the following command can be utilized:
+
+```
+docker-compose down
+```
+
+## Troubleshooting
+
+### Text Encoding Issue
+
+During the setup, you might encounter issues related to text string encoding in project files. The primary encoding was supposed to be UTF-8, but there were instances where ASCII and Latin-1 formats were detected. This discrepancy could cause errors during application compilation.
+
+#### Resolution Script
+
+To tackle this, a manual SH script has been designed to analyze and convert files with ASCII or Latin-1 encodings to UTF-8. This script is recommended only in situations where a related error occurs during the creation of a custom application image. To execute this script, navigate to the `/docker/scripts/` directory and run the following command:
+
+```
+utf-8-convert.sh
+```
+
+## Conclusion
+
+We appreciate your collaboration in this project. Feel free to report any issues or contribute to further enhancements.
+
+Thank you!
+```
+
+
+# OLD README => OAW
 Rastreador Observatorio de Accesibilidad Web
 
 This repository contains 3 applications:
