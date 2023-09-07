@@ -34,12 +34,20 @@ cd docker
 docker-compose up
 ```
 
-5. Stop the services
+5. Go to the url
+
+```
+http://localhost:8080/oaw/diagnostico.html
+```
+
+## Stop application
+
+1. Stop the services
 ```
 docker-compose stop
 ```
 
-6. Delete the containers
+2. Delete the containers
 ```
 docker-compose down
 ```
