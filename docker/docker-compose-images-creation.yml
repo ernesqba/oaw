@@ -1,7 +1,9 @@
-version: '3.8' 
+version: '3.8'
 services:
   myapp:
-    image: ernesqba/oaw-docker
+    build: 
+      context: ./..
+      dockerfile: docker/Dockerfile.war
     ports:
       - "8080:8080"
     depends_on:
@@ -30,7 +32,9 @@ services:
       - ./db-scripts:/docker-entrypoint-initdb.d
 
   migrations:
-    image: ernesqba/oaw-prepare-migrations
+    build: 
+      context: ./..
+      dockerfile: docker/Dockerfile.migrations
     volumes:
       - ./db-scripts:/app/db-scripts
 
