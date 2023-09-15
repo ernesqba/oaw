@@ -4,10 +4,6 @@
 
 Thanks to continuous efforts to maximize the automation of the containerization methodology, the setup and management of the project have been significantly simplified. In this README, you'll find guidelines to get the project up and running.
 
-### Important Note
-
-This is an initial version of the project, which is in the process of continuous improvement. Please note that it is necessary to restart the application after each accessibility evaluation job.
-
 ## Prerequisites
 
 - Docker
@@ -71,6 +67,10 @@ While our tool can read emails in the `.eml` format, it currently does not suppo
    ```
 
 ## Troubleshooting
+
+### Application Restart Advisory
+
+We wish to inform you that this project is in its nascent stage and is undergoing consistent improvements. To ensure optimal performance, users are advised to restart the application following each accessibility evaluation job.
 
 ### User Declined Directory Sharing Error
 
