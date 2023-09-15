@@ -1,5 +1,5 @@
 <!--
-Copyright (C) 2012 INTECO, Instituto Nacional de TecnologÌas de la ComunicaciÛn, 
+Copyright (C) 2012 INTECO, Instituto Nacional de Tecnolog√≠as de la Comunicaci√≥n, 
 This program is licensed and may be used, modified and redistributed under the terms
 of the European Public License (EUPL), either version 1.2 or (at your option) any later 
 version as soon as they are approved by the European Commission.
@@ -10,7 +10,7 @@ permissions and more details.
 You should have received a copy of the EUPL1.2 license along with this program; if not, 
 you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017D0863
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Modificaciones: MINHAFP (Ministerio de Hacienda y FunciÛn P˙blica) 
+Modificaciones: MINHAFP (Ministerio de Hacienda y Funci√≥n P√∫blica) 
 Email: observ.accesibilidad@correo.gob.es
 -->
 <%@ include file="/common/taglibs.jsp"%>
@@ -288,7 +288,7 @@ var translatedColNames = [ colNameId, colNameOldName,
 			modal : true,
 			title: windowTitle + " - " + windowTitle2,
 			buttons : {
-				"AÒadir" : {
+				"A√±adir" : {
 					click: function() {
 						addSeedObservatory($('#autocompleteAddSeedObservatoryHidden').val());
 					},
@@ -370,7 +370,7 @@ var translatedColNames = [ colNameId, colNameOldName,
 
 		var dialogoReducir = $('<div id="dialogoReducirContent"></div>');
 
-		dialogoReducir.append('<p>&#191;Desea eliminar el cÛdigo fuente analizado (html y css) de este observatorio? </p><p>Se conservar·n las puntuaciones e incidencias, asÌ como el listado de p·ginas analizadas.</p> <p>Esta acciÛn <b>no puede deshacerse</b></p>');
+		dialogoReducir.append('<p>&#191;Desea eliminar el c√≥digo fuente analizado (html y css) de este observatorio? </p><p>Se conservar√°n las puntuaciones e incidencias, as√≠ como el listado de p√°ginas analizadas.</p> <p>Esta acci√≥n <b>no puede deshacerse</b></p>');
 		
 		dialogoReducir
 			.dialog({
@@ -595,7 +595,7 @@ var translatedColNames = [ colNameId, colNameOldName,
 			<c:set target="${params}" property="idCartucho" value="${idCartucho}" />
 			<c:set target="${params}" property="idExObs" value="${idExObs}" />
 			<p class="pull-right">
-				<!-- A—ADIR SEMILLAS -->
+				<!-- A√ëADIR SEMILLAS -->
 				<a onclick="dialogAddSeed()">
 					<span class="btn btn-default btn-lg">
 						<span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true" data-toggle="tooltip"

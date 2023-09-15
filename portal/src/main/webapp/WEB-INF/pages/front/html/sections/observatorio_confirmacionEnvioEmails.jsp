@@ -1,5 +1,5 @@
 <!--
-Copyright (C) 2012 INTECO, Instituto Nacional de Tecnologías de la Comunicación, 
+Copyright (C) 2012 INTECO, Instituto Nacional de TecnologÃ­as de la ComunicaciÃ³n, 
 This program is licensed and may be used, modified and redistributed under the terms
 of the European Public License (EUPL), either version 1.2 or (at your option) any later 
 version as soon as they are approved by the European Commission.
@@ -527,7 +527,7 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 	
 	                $('#paginador').append("<span style='float: left;clear: both; display: block; width: 100%; text-align: left;padding: 10px 5px;'><strong>" + paginadorTotal + "</strong> " + data.paginador.total + "</span>");
 	
-	                // Si solo hay una página no pintamos el paginador
+	                // Si solo hay una pÃ¡gina no pintamos el paginador
 	                if (paginas.length > 1) {
 	
 	                    $

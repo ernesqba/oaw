@@ -1,5 +1,5 @@
 <!--
-Copyright (C) 2017 MINHAFP, Ministerio de Hacienda y Funci髇 P鷅lica, 
+Copyright (C) 2017 MINHAFP, Ministerio de Hacienda y Funci贸n P煤blica, 
 This program is licensed and may be used, modified and redistributed under the terms
 of the European Public License (EUPL), either version 1.2 or (at your option) any later 
 version as soon as they are approved by the European Commission.
@@ -49,8 +49,8 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 	
 	
 	
-	//Recarga el grid. Recibe como par醡etro la url de la acci髇 con la informaci髇
-	//de paginaci髇.
+	//Recarga el grid. Recibe como par谩metro la url de la acci贸n con la informaci贸n
+	//de paginaci贸n.
 	function reloadGrid(path) {
 
 		lastUrl = path;
@@ -185,7 +185,7 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 
 													// En la columna
 													// eliminar desactivamos la
-													// selecci髇 para evitar que se
+													// selecci贸n para evitar que se
 													// active la edidion
 													if (this.p.colModel[iCol].name === "eliminar") {
 														return false;
@@ -244,7 +244,7 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 
 							$('#paginador').empty();
 
-							//Si solo hay una p醙ina no pintamos el paginador
+							//Si solo hay una p谩gina no pintamos el paginador
 							if (paginas.length > 1) {
 
 								$
