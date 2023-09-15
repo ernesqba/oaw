@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
-Copyright (C) 2012 INTECO, Instituto Nacional de Tecnologías de la Comunicación, 
+Copyright (C) 2012 INTECO, Instituto Nacional de TecnologÃ­as de la ComunicaciÃ³n, 
 This program is licensed and may be used, modified and redistributed under the terms
 of the European Public License (EUPL), either version 1.2 or (at your option) any later 
 version as soon as they are approved by the European Commission.
@@ -42,15 +42,15 @@ Telephone: (416) 978-4360
     <type>normal</type>
     <title abbr="UNE-AA" long-name="UNE 139803:2004 Nivel AA">UNE 139803 (Nivel AA)</title>
     <date>2010-10-08</date>
-    <status>Las comprobaciones realizadas por esta metodología han sido extraídas de las versiones iniciales de
-        AChecker, y de la metodología de revisión de accesibilidad de INTECO.
+    <status>Las comprobaciones realizadas por esta metodologÃ­a han sido extraÃ­das de las versiones iniciales de
+        AChecker, y de la metodologÃ­a de revisiÃ³n de accesibilidad de INTECO.
     </status>
     <earlid>http://www.w3.org/TR/WCAG10/#aa</earlid>
 
-    <preamble>La Norma UNE 139803:2004 establece las características que han de cumplir los contenidos disponibles
-        mediante tecnologías Web en Internet, Intranets y otro tipo de redes informáticas, para que puedan ser
+    <preamble>La Norma UNE 139803:2004 establece las caracterÃ­sticas que han de cumplir los contenidos disponibles
+        mediante tecnologÃ­as Web en Internet, Intranets y otro tipo de redes informÃ¡ticas, para que puedan ser
         utilizados por la mayor parte de las personas, incluyendo personas con discapacidad y personas de edad avanzada,
-        de forma autónoma o mediante las ayudas técnicas pertinentes.
+        de forma autÃ³noma o mediante las ayudas tÃ©cnicas pertinentes.
     </preamble>
 
     <group>
@@ -187,7 +187,7 @@ Telephone: (416) 978-4360
                     <check id="93"/>
                     <check id="110"/>
                     <check id="161"/>
-                    <!-- <check id="164"/> Podría ser interesante si se supiera si usamos HTML o XHTML -->
+                    <!-- <check id="164"/> PodrÃ­a ser interesante si se supiera si usamos HTML o XHTML -->
                     <check id="182"/>
                     <check id="288"/>
                     <check id="289"/>
@@ -433,7 +433,7 @@ Telephone: (416) 978-4360
                     <!-- <check id="38"/> -->
                     <check id="141"/>
                     <check id="236"/>
-                    <!-- Si salta cuando hay algún encabezado nos vale -->
+                    <!-- Si salta cuando hay algÃºn encabezado nos vale -->
                     <check id="395"/>
                     <check id="403"/>
                 </checks>

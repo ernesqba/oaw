@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!--
-Copyright (C) 2012 INTECO, Instituto Nacional de Tecnologías de la Comunicación, 
+Copyright (C) 2012 INTECO, Instituto Nacional de TecnologÃ­as de la ComunicaciÃ³n, 
 This program is licensed and may be used, modified and redistributed under the terms
 of the European Public License (EUPL), either version 1.2 or (at your option) any later 
 version as soon as they are approved by the European Commission.
@@ -43,16 +43,16 @@ Telephone: (416) 978-4360
     <title abbr="WCAG1-AAA" long-name="Web Content Accessibility Guidelines (WCAG), Version 1.0, Level AAA">WCAG 1.0 (Level AAA)</title>
     <date>2004-03-17</date>
     <status>Las comprobaciones de accesibilidad requeridas para esta directiva han sido asignados por el ATRC. El WAI no
-        ha verificado estas comprobaciones así que la conformidad con ellas tiene una validez limitada.
+        ha verificado estas comprobaciones asÃ­ que la conformidad con ellas tiene una validez limitada.
     </status>
     <earlid>http://www.w3.org/TR/WCAG10/#aaa</earlid>
 
-    <preamble>La Iniciativa de Acceso Web (WAI, por sus siglas en inglés) ha creado un conjunto de directivas que
+    <preamble>La Iniciativa de Acceso Web (WAI, por sus siglas en inglÃ©s) ha creado un conjunto de directivas que
         los autores de documentos web deben utilizar para que su contenido pueda ser accesible a personas con
         discapacidad.
-        Estas directivas, llamadas Directivas de Accesibilidad para Contenidos Web (WCAG por sus siglas en inglés),
+        Estas directivas, llamadas Directivas de Accesibilidad para Contenidos Web (WCAG por sus siglas en inglÃ©s),
         fueron
-        emitidas en 1999 y la versión 2 se encuentra actualmente en desarrollo.
+        emitidas en 1999 y la versiÃ³n 2 se encuentra actualmente en desarrollo.
     </preamble>
 
     <group>

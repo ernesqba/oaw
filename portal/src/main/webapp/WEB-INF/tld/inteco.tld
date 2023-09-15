@@ -39,7 +39,7 @@
         <tagclass>es.inteco.rastreador2.utils.MenuTag</tagclass>
         <bodycontent>JSP</bodycontent>
         <info>
-            Tag para mostrar un menú u otro según los roles del usuario
+            Tag para mostrar un menÃº u otro segÃºn los roles del usuario
         </info>
         <attribute>
             <name>roles</name>

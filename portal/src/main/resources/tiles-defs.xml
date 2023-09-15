@@ -20,7 +20,7 @@
 		<put name="contents" value="" />
 	</definition>
 
-	<!-- Página login del RASTREADOR -->
+	<!-- PÃ¡gina login del RASTREADOR -->
 	<definition name=".loginCrawler" extends="mainLayout">
 		<put name="title" value="application.title.login" />
 		<put name="headData" value="/common/crawler_login_headData.jsp" />
@@ -28,139 +28,139 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/general_loginSistema.jsp" />
 	</definition>
 
-	<!-- Página MENU DE ADMINISTRADOR -->
+	<!-- PÃ¡gina MENU DE ADMINISTRADOR -->
 	<definition name=".menuAdminSistema" extends="mainLayout">
 		<put name="title" value="application.title" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/menuAdminSistema.jsp" />
 	</definition>
 
-	<!-- Página CARGAR USUARIOS SISTEMA -->
+	<!-- PÃ¡gina CARGAR USUARIOS SISTEMA -->
 	<definition name=".cargarUsuariosSistema" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/usuario_indice.jsp" />
 	</definition>
 
-	<!-- Página FORMULARIO NUEVO USUARIO -->
+	<!-- PÃ¡gina FORMULARIO NUEVO USUARIO -->
 	<definition name=".nuevoUsuario" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/usuario_nuevo.jsp" />
 	</definition>
 
-	<!-- Página FORMULARIO NUEVO USUARIO CLIENTE -->
+	<!-- PÃ¡gina FORMULARIO NUEVO USUARIO CLIENTE -->
 	<definition name=".nuevoUsuarioCliente" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_usuario_nuevo.jsp" />
 	</definition>
 
-	<!-- Página VER USUARIOS -->
+	<!-- PÃ¡gina VER USUARIOS -->
 	<definition name=".verUsuario" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/usuario_ver.jsp" />
 	</definition>
 
-	<!-- Página MODIFICAR USUARIOS -->
+	<!-- PÃ¡gina MODIFICAR USUARIOS -->
 	<definition name=".modificarUsuario" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/usuario_modificar.jsp" />
 	</definition>
 
-	<!-- Página MODIFICAR USUARIO CLIENTE -->
+	<!-- PÃ¡gina MODIFICAR USUARIO CLIENTE -->
 	<definition name=".modificarUsuarioCliente" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_usuario_modificar.jsp" />
 	</definition>
 
-	<!-- Página MODIFICAR USUARIO CLIENTE -->
+	<!-- PÃ¡gina MODIFICAR USUARIO CLIENTE -->
 	<definition name=".modificarUsuarioObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_modificarUsuario.jsp" />
 	</definition>
 
-	<!-- Página ELIMINAR USUARIOS -->
+	<!-- PÃ¡gina ELIMINAR USUARIOS -->
 	<definition name=".eliminarUsuario" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/usuario_eliminar.jsp" />
 	</definition>
 
-	<!-- Página CAMBIAR PASS ADMIN -->
+	<!-- PÃ¡gina CAMBIAR PASS ADMIN -->
 	<definition name=".cambiarPassAdmin" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/usuario_cambiarPassAdmin.jsp" />
 	</definition>
 
-	<!-- Página nueva cuenta usuario -->
+	<!-- PÃ¡gina nueva cuenta usuario -->
 	<definition name=".nuevaCuentaUsuario" extends="mainLayout">
 		<put name="title" value="application.title.cuenta.usuario" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_nueva.jsp" />
 	</definition>
 
-	<!-- Página indice cuenta usuario -->
+	<!-- PÃ¡gina indice cuenta usuario -->
 	<definition name=".cargarCuentasUsuario" extends="mainLayout">
 		<put name="title" value="application.title.cuenta.usuario" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_indice.jsp" />
 	</definition>
 
-	<!-- Página ver cuenta usuario -->
+	<!-- PÃ¡gina ver cuenta usuario -->
 	<definition name=".verCuentaUsuario" extends="mainLayout">
 		<put name="title" value="application.title.cuenta.usuario" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_ver.jsp" />
 	</definition>
 
-	<!-- Página ver cuentas usuario -->
+	<!-- PÃ¡gina ver cuentas usuario -->
 	<definition name=".verCuentasUsuario" extends="mainLayout">
 		<put name="title" value="application.title.cuenta.usuario" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuentas_cliente_ver.jsp" />
 	</definition>
 
-	<!-- Página eliminar cuenta usuario -->
+	<!-- PÃ¡gina eliminar cuenta usuario -->
 	<definition name=".eliminarCuentaUsuario" extends="mainLayout">
 		<put name="title" value="application.title.cuenta.usuario" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_confirmacionBorrar.jsp" />
 	</definition>
 
-	<!-- Página modificar cuenta cliente -->
+	<!-- PÃ¡gina modificar cuenta cliente -->
 	<definition name=".modificarCuentaUsuario" extends="mainLayout">
 		<put name="title" value="application.title.cuenta.usuario" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_modificar.jsp" />
 	</definition>
 
-	<!-- Página modificar mi cuenta cliente -->
+	<!-- PÃ¡gina modificar mi cuenta cliente -->
 	<definition name=".modificarMiCuentaUsuario" extends="mainLayout">
 		<put name="title" value="application.title.cuenta.usuario" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_miCuenta_modificar.jsp" />
 	</definition>
 
-	<!-- Página CARGAR OBSERVATORIO -->
+	<!-- PÃ¡gina CARGAR OBSERVATORIO -->
 	<definition name=".cargarObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_indice.jsp" />
 	</definition>
 
-	<!-- Página INDICE GRÁFICAS OBSERVATORIO -->
+	<!-- PÃ¡gina INDICE GRÃFICAS OBSERVATORIO -->
 	<definition name=".indiceGraficasObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_indiceGraficas.jsp" />
 	</definition>
 
-	<!-- Página INDICE GRÁFICAS CATEGORIA OBSERVATORIO -->
+	<!-- PÃ¡gina INDICE GRÃFICAS CATEGORIA OBSERVATORIO -->
 	<definition name=".indiceGraficasCatObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_indiceCategoriaGraficas.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO GLOBAL -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO GLOBAL -->
 	<definition name=".graficasObservatorioGlobal" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_graficas_global.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO SEGMENTOI -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO SEGMENTOI -->
 	<definition name=".graficasObservatorioSegmento" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_graficas_segmento.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO COMPARATIVA -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO COMPARATIVA -->
 	<definition name=".graficasObservatorioEvolucion" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_graficas_comparativa.jsp" />
@@ -175,86 +175,86 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_graficas_comparativa_une_2012_b.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO GLOBAL LENOX -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO GLOBAL LENOX -->
 	<definition name=".graficasObservatorioLenoxGlobal" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_lenox_graficas_global.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO SEGMENTOI LENOX -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO SEGMENTOI LENOX -->
 	<definition name=".graficasObservatorioLenoxSegmentoI" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_lenox_graficas_segmentoI.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO SEGMENTOII LENOX -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO SEGMENTOII LENOX -->
 	<definition name=".graficasObservatorioLenoxSegmentoII" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_lenox_graficas_segmentoII.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO SEGMENTOIII LENOX -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO SEGMENTOIII LENOX -->
 	<definition name=".graficasObservatorioLenoxSegmentoIII" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_lenox_graficas_segmentoIII.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO COMPARATIVA LENOX -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO COMPARATIVA LENOX -->
 	<definition name=".graficasObservatorioLenoxEvolucion" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_lenox_graficas_comparativa.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO GLOBAL MULTILINGÜISMO -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO GLOBAL MULTILINGÃœISMO -->
 	<definition name=".graficasObservatorioMultilanguageGlobal" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_multilanguage_graficas_global.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO SEGMENTOI MULTILINGÜISMO -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO SEGMENTOI MULTILINGÃœISMO -->
 	<definition name=".graficasObservatorioMultilanguageSegmento" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_multilanguage_graficas_segmento.jsp" />
 	</definition>
 
-	<!-- Página GRÁFICAS OBSERVATORIO COMPARATIVA MULTILINGÜISMO -->
+	<!-- PÃ¡gina GRÃFICAS OBSERVATORIO COMPARATIVA MULTILINGÃœISMO -->
 	<definition name=".graficasObservatorioMultilanguageEvolucion" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents"
 			value="/WEB-INF/pages/front/html/sections/observatorio_multilanguage_graficas_comparativa.jsp" />
 	</definition>
 
-	<!-- Página FORMULARIO NUEVO USUARIO OBSERVATORIO -->
+	<!-- PÃ¡gina FORMULARIO NUEVO USUARIO OBSERVATORIO -->
 	<definition name=".nuevoUsuarioObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.usuarios" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_nuevoUsuario.jsp" />
 	</definition>
 
-	<!-- Página nuevo observatorio -->
+	<!-- PÃ¡gina nuevo observatorio -->
 	<definition name=".nuevoObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_nuevo.jsp" />
 	</definition>
 
-	<!-- Página asociar semillas a observatorio -->
+	<!-- PÃ¡gina asociar semillas a observatorio -->
 	<definition name=".semillasObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_semillas.jsp" />
 	</definition>
 
-	<!-- Página eliminar observatorio confirmación -->
+	<!-- PÃ¡gina eliminar observatorio confirmaciÃ³n -->
 	<definition name=".eliminarObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionBorrar.jsp" />
 	</definition>
 
-	<!-- Página eliminar observatorio confirmación -->
+	<!-- PÃ¡gina eliminar observatorio confirmaciÃ³n -->
 	<definition name=".eliminarObservatorioRealizado" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionBorrarRealizado.jsp" />
 	</definition>
 
-	<!-- Página exportar base de datos del observatorio confirmación -->
+	<!-- PÃ¡gina exportar base de datos del observatorio confirmaciÃ³n -->
 	<definition name=".exportarDatosObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionExportarDatos.jsp" />
@@ -289,21 +289,21 @@
 	</definition>
 
 
-	<!-- Página cargar semillas observatorio -->
+	<!-- PÃ¡gina cargar semillas observatorio -->
 	<definition name=".cargarSemillasObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_cargarSemillas.jsp" />
 	</definition>
 
 
-	<!-- Página nueva semilla observatorio -->
+	<!-- PÃ¡gina nueva semilla observatorio -->
 	<definition name=".nuevaSemillaObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_nuevaSemilla.jsp" />
 	</definition>
 
 
-	<!-- Página cargar dependencias observatorio -->
+	<!-- PÃ¡gina cargar dependencias observatorio -->
 	<definition name=".cargarDependenciasObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_cargarDependencias.jsp" />
@@ -317,13 +317,13 @@
 
 
 
-	<!-- Página cargar complejidades observatorio -->
+	<!-- PÃ¡gina cargar complejidades observatorio -->
 	<definition name=".cargarComplejidadesObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_cargarComplejidades.jsp" />
 	</definition>
 
-	<!-- Página cargar etiquetas observatorio -->
+	<!-- PÃ¡gina cargar etiquetas observatorio -->
 	<definition name=".cargarEtiquetasObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_cargarEtiquetas.jsp" />
@@ -335,13 +335,13 @@
 	</definition>
 
 
-	<!-- Página cargar reduccion de tablas del observatorio -->
+	<!-- PÃ¡gina cargar reduccion de tablas del observatorio -->
 	<definition name=".cargarReducirTablasObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_cargarReducirTablas.jsp" />
 	</definition>
 
-	<!-- Página CARGAR RASTREOS REALIZADOS observatorio -->
+	<!-- PÃ¡gina CARGAR RASTREOS REALIZADOS observatorio -->
 	<definition name=".cargarRastreosRealizadosObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_indiceRastreosRealizados.jsp" />
@@ -357,61 +357,61 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionBorrarSemillaObEx.jsp" />
 	</definition>
 
-	<!-- Página editar semillas observatorio -->
+	<!-- PÃ¡gina editar semillas observatorio -->
 	<definition name=".editarSemillaObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_editarSemilla.jsp" />
 	</definition>
 
-	<!-- Página ver observatorio -->
+	<!-- PÃ¡gina ver observatorio -->
 	<definition name=".verObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_ver.jsp" />
 	</definition>
 
-	<!-- Página modificar observatorio -->
+	<!-- PÃ¡gina modificar observatorio -->
 	<definition name=".modificarObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_modificar.jsp" />
 	</definition>
 
-	<!-- Página confirmacion eliminar semilla observatorio -->
+	<!-- PÃ¡gina confirmacion eliminar semilla observatorio -->
 	<definition name=".confirmacionBorrarSemillaObs" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionSemilla.jsp" />
 	</definition>
 
-	<!-- Página confirmacion eliminar semilla resultaods observatorio -->
+	<!-- PÃ¡gina confirmacion eliminar semilla resultaods observatorio -->
 	<definition name=".confirmacionBorrarSemillaResultadosObs" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionResultados.jsp" />
 	</definition>
 
-	<!-- Página detalle semilla observatorio -->
+	<!-- PÃ¡gina detalle semilla observatorio -->
 	<definition name=".detalleSemillaObs" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_detalleSemilla.jsp" />
 	</definition>
 
-	<!-- Página detalle semilla observatorio -->
+	<!-- PÃ¡gina detalle semilla observatorio -->
 	<definition name=".resultadosObservatorioSemillas" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_resultadosSemillas.jsp" />
 	</definition>
 
-	<!-- Página lista de observatorios realizados -->
+	<!-- PÃ¡gina lista de observatorios realizados -->
 	<definition name=".fulfilledObservatories" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_indiceRealizados.jsp" />
 	</definition>
 
-	<!-- Página subir conclusiones -->
+	<!-- PÃ¡gina subir conclusiones -->
 	<definition name=".formularioSubirConclusiones" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_formularioSubirConclusiones.jsp" />
 	</definition>
 
-	<!-- Página lista de observatorios realizados -->
+	<!-- PÃ¡gina lista de observatorios realizados -->
 	<definition name=".fulfilledObservatoriesPrimary" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_indiceRealizadosPrimarios.jsp" />
@@ -489,181 +489,181 @@
 
 	<!-- FIN HTML INFORME AGREGADO -->
 
-	<!-- Página ELIMINAR RASTREO -->
+	<!-- PÃ¡gina ELIMINAR RASTREO -->
 	<definition name=".eliminarRastreo" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_confirmacionBorrar.jsp" />
 	</definition>
 
-	<!-- Página ELIMINAR RASTREO REALIZADO -->
+	<!-- PÃ¡gina ELIMINAR RASTREO REALIZADO -->
 	<definition name=".eliminarRastreoRealizado" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_confirmacionBorrarEjecutado.jsp" />
 	</definition>
 
-	<!-- Página MODIFICAR RASTREO -->
+	<!-- PÃ¡gina MODIFICAR RASTREO -->
 	<definition name=".modificarRastreo" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_modificar.jsp" />
 	</definition>
 
-	<!-- Página NUEVO RASTREO -->
+	<!-- PÃ¡gina NUEVO RASTREO -->
 	<definition name=".nuevoRastreo" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_nuevo.jsp" />
 	</definition>
 
-	<!-- Página NUEVO RASTREO -->
+	<!-- PÃ¡gina NUEVO RASTREO -->
 	<definition name=".rastreoTest" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_test.jsp" />
 	</definition>
 
-	<!-- Página NUEVO RASTREO -->
+	<!-- PÃ¡gina NUEVO RASTREO -->
 	<definition name=".rastreoTestResults" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_test_results.jsp" />
 	</definition>
 
-	<!-- Página VER RASTREO -->
+	<!-- PÃ¡gina VER RASTREO -->
 	<definition name=".verRastreo" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_ver.jsp" />
 	</definition>
 
-	<!-- Página INDICE RASTREO -->
+	<!-- PÃ¡gina INDICE RASTREO -->
 	<definition name=".indiceRastreo" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_indice.jsp" />
 	</definition>
 
-	<!-- Página INDICES RASTREOS REALIZADOS -->
+	<!-- PÃ¡gina INDICES RASTREOS REALIZADOS -->
 	<definition name=".indiceRastreosRealizados" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_realizado_indice.jsp" />
 	</definition>
 
-	<!-- Página ELIMINAR CATEGORÍA -->
+	<!-- PÃ¡gina ELIMINAR CATEGORÃA -->
 	<definition name=".eliminarCategoria" extends="mainLayout">
 		<put name="title" value="application.title.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_confirmacionBorrar.jsp" />
 	</definition>
 
-	<!-- Página MODIFICAR CATEGORÍA -->
+	<!-- PÃ¡gina MODIFICAR CATEGORÃA -->
 	<definition name=".modificarCategoria" extends="mainLayout">
 		<put name="title" value="application.title.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_modificar.jsp" />
 	</definition>
 
-	<!-- Página NUEVA CATEGORÍA -->
+	<!-- PÃ¡gina NUEVA CATEGORÃA -->
 	<definition name=".nuevaCategoria" extends="mainLayout">
 		<put name="title" value="application.title.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_nueva.jsp" />
 	</definition>
 
-	<!-- Página VER CATEGORÍA -->
+	<!-- PÃ¡gina VER CATEGORÃA -->
 	<definition name=".verCategoria" extends="mainLayout">
 		<put name="title" value="application.title.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_ver.jsp" />
 	</definition>
 
-	<!-- Página INDICE CATEGORÍA -->
+	<!-- PÃ¡gina INDICE CATEGORÃA -->
 	<definition name=".indiceCategoria" extends="mainLayout">
 		<put name="title" value="application.title.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_indice.jsp" />
 	</definition>
 
-	<!-- Página NUEVO TERMINO CAT -->
+	<!-- PÃ¡gina NUEVO TERMINO CAT -->
 	<definition name=".nuevoTerminoCat" extends="mainLayout">
 		<put name="title" value="application.title.termino.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_termino_nuevo.jsp" />
 	</definition>
 
-	<!-- Página ELIMINAR TERMINO CAT -->
+	<!-- PÃ¡gina ELIMINAR TERMINO CAT -->
 	<definition name=".eliminarTerminoCat" extends="mainLayout">
 		<put name="title" value="application.title.termino.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_termino_eliminar.jsp" />
 	</definition>
 
-	<!-- Página MODIFICAR TERMINO CAT -->
+	<!-- PÃ¡gina MODIFICAR TERMINO CAT -->
 	<definition name=".modificarTerminoCat" extends="mainLayout">
 		<put name="title" value="application.title.termino.categorias" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/categoria_termino_modificar.jsp" />
 	</definition>
 
-	<!-- Página BORRAR SEMILLA -->
+	<!-- PÃ¡gina BORRAR SEMILLA -->
 	<definition name=".listSemillas" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_listado.jsp" />
 	</definition>
 
-	<!-- Página ELIMINAR SEMILLA -->
+	<!-- PÃ¡gina ELIMINAR SEMILLA -->
 	<definition name=".eliminarSemilla" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_eliminar.jsp" />
 	</definition>
 
-	<!-- Página MENU SEMILLAs -->
+	<!-- PÃ¡gina MENU SEMILLAs -->
 	<definition name=".menuSemillas" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/menuSemillas.jsp" />
 	</definition>
 
-	<!-- Página NUEVA SEMILLA GOOGLE -->
+	<!-- PÃ¡gina NUEVA SEMILLA GOOGLE -->
 	<definition name=".nuevaSemillaGoogle" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_nuevaGoogle.jsp" />
 	</definition>
 
-	<!-- Página NUEVA SEMILLA IP -->
+	<!-- PÃ¡gina NUEVA SEMILLA IP -->
 	<definition name=".nuevaSemillaIp" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_nuevaIp.jsp" />
 	</definition>
 
-	<!-- Página NUEVA SEMILLA WEBS -->
+	<!-- PÃ¡gina NUEVA SEMILLA WEBS -->
 	<definition name=".nuevaSemillaWebs" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_nuevaWebs.jsp" />
 	</definition>
 
-	<!-- Página LISTA DE CATEGORIAS DE SEMILLA -->
+	<!-- PÃ¡gina LISTA DE CATEGORIAS DE SEMILLA -->
 	<definition name=".categoriasSemilla" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_categoriasSemilla.jsp" />
 	</definition>
 
-	<!-- Página LISTA DE BORRAR CATEGORÍA DE SEMILLA -->
+	<!-- PÃ¡gina LISTA DE BORRAR CATEGORÃA DE SEMILLA -->
 	<definition name=".borrarCategoriaSemilla" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_borrarCategoriaSemilla.jsp" />
 	</definition>
 
-	<!-- Página NUEVA CATEGORIA DE SEMILLA -->
+	<!-- PÃ¡gina NUEVA CATEGORIA DE SEMILLA -->
 	<definition name=".formularioCategoriaSemilla" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_formularioCategoriaSemilla.jsp" />
 	</definition>
 
-	<!-- Página NUEVA CATEGORIA DE SEMILLA -->
+	<!-- PÃ¡gina NUEVA CATEGORIA DE SEMILLA -->
 	<definition name=".formularioSemillaCategoria" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_formularioSemillaCategoria.jsp" />
 	</definition>
 
-	<!-- Página NUEVA CATEGORIA DE SEMILLA -->
+	<!-- PÃ¡gina NUEVA CATEGORIA DE SEMILLA -->
 	<definition name=".verCategoriaSemilla" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_verCategoriaSemilla.jsp" />
 	</definition>
 
-	<!-- Página LISTA DE BORRAR CATEGORÍA DE SEMILLA -->
+	<!-- PÃ¡gina LISTA DE BORRAR CATEGORÃA DE SEMILLA -->
 	<definition name=".borrarSemillaConfirmacion" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_confirmacionBorrar.jsp" />
 	</definition>
 
-	<!-- Página SUBIR SEMILLA -->
+	<!-- PÃ¡gina SUBIR SEMILLA -->
 	<definition name=".subirSemilla" extends="mainLayout">
 		<put name="title" value="application.title.semillas" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_subir.jsp" />
@@ -674,13 +674,13 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/semilla_editando.jsp" />
 	</definition>
 
-	<!-- Página LANZAR INTERMEDIO -->
+	<!-- PÃ¡gina LANZAR INTERMEDIO -->
 	<definition name=".lanzarIntermedio" extends="mainLayout">
 		<put name="title" value="application.title.rastreos" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_lanzarIntermedio.jsp" />
 	</definition>
 
-	<!-- Página REDIRECCION CONFIG -->
+	<!-- PÃ¡gina REDIRECCION CONFIG -->
 	<definition name=".redireccionConfig." extends="mainLayout">
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/general_redireccionConfig.jsp" />
 	</definition>
@@ -703,7 +703,7 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/general_noPermission.jsp" />
 	</definition>
 
-	<!-- PAGINA GRÁFICAS INTAV -->
+	<!-- PAGINA GRÃFICAS INTAV -->
 	<definition name=".indiceGraficasIntav" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_resultados_graficas_intav.jsp" />
@@ -727,19 +727,19 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/cuenta_cliente_rastreo_realizado_lista.jsp" />
 	</definition>
 
-	<!-- Resultados de búsqueda de análisis por rastreo -->
+	<!-- Resultados de bÃºsqueda de anÃ¡lisis por rastreo -->
 	<definition name=".listAnalysisByTracking" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/intav_listAnalysisByTracking.jsp" />
 	</definition>
 
-	<!-- Resultados de búsqueda de análisis -->
+	<!-- Resultados de bÃºsqueda de anÃ¡lisis -->
 	<definition name=".checkResults" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/intav_checkResults.jsp" />
 	</definition>
 
-	<!-- Resultados de búsqueda de análisis -->
+	<!-- Resultados de bÃºsqueda de anÃ¡lisis -->
 	<definition name=".checkResultsDetail" extends="mainLayout">
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/intav_checkResultsDetail.jsp" />
 	</definition>
@@ -750,19 +750,19 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/intav_checkResultsObservatory.jsp" />
 	</definition>
 
-	<!-- Resultados análisis por rastreo para Lenox -->
+	<!-- Resultados anÃ¡lisis por rastreo para Lenox -->
 	<definition name=".listAnalysisByTrackingLenox" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/lenox_listAnalysisByTracking.jsp" />
 	</definition>
 
-	<!-- Resultados análisis por rastreo para Lenox -->
+	<!-- Resultados anÃ¡lisis por rastreo para Lenox -->
 	<definition name=".checkResultsLenox" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/lenox_listAnalysisByUrl.jsp" />
 	</definition>
 
-	<!-- Resultados análisis de enlaces rotos -->
+	<!-- Resultados anÃ¡lisis de enlaces rotos -->
 	<definition name=".brokenLinksList" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/rastreo_resultados_listaEnlacesRotos.jsp" />
@@ -780,25 +780,25 @@
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/certificado_nuevo.jsp" />
 	</definition>
 
-	<!-- Confirmación de borrado de certificados -->
+	<!-- ConfirmaciÃ³n de borrado de certificados -->
 	<definition name=".deleteConfirmation" extends="mainLayout">
 		<put name="title" value="application.title.certificados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/certificado_borrar.jsp" />
 	</definition>
 
-	<!-- Resultados de búsqueda de análisis por rastreo -->
+	<!-- Resultados de bÃºsqueda de anÃ¡lisis por rastreo -->
 	<definition name=".listAnalysisByTrackingMultilanguage" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/multilanguage_listAnalysisByTracking.jsp" />
 	</definition>
 
-	<!-- Resultados de búsqueda de análisis por rastreo -->
+	<!-- Resultados de bÃºsqueda de anÃ¡lisis por rastreo -->
 	<definition name=".analysisDetailMultilanguage" extends="mainLayout">
 		<put name="title" value="application.title.resultados" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/multilanguage_analysisDetail.jsp" />
 	</definition>
 
-	<!-- Página CAMBIAR PASS ADMIN -->
+	<!-- PÃ¡gina CAMBIAR PASS ADMIN -->
 	<definition name=".servicioDiagnostico" extends="mainLayout">
 		<put name="title" value="application.title.diagnostico" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/servicioDiagnostico.jsp" />
@@ -807,26 +807,26 @@
 	<definition name=".json" path="/json.jsp" />
 
 
-	<!-- Página de conectividad -->
+	<!-- PÃ¡gina de conectividad -->
 	<definition name=".conectividad" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/conectividad.jsp" />
 	</definition>
 
-	<!-- Página de estado de observatio (consola) -->
+	<!-- PÃ¡gina de estado de observatio (consola) -->
 	<definition name=".estadoObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_EstadoEjecucion.jsp" />
 	</definition>
 
 
-	<!-- Confirmación de relanzar observatorio -->
+	<!-- ConfirmaciÃ³n de relanzar observatorio -->
 	<definition name=".confirmarRelanzarObservatorio" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionRelanzar.jsp" />
 	</definition>
 
-	<!-- Confirmación de carga masiva -->
+	<!-- ConfirmaciÃ³n de carga masiva -->
 	<definition name=".confirmarImportacion" extends="mainLayout">
 		<put name="title" value="application.title.observatorio" />
 		<put name="contents" value="/WEB-INF/pages/front/html/sections/observatorio_confirmacionImportar.jsp" />

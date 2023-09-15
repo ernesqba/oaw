@@ -1,6 +1,6 @@
 <!--
 
-Copyright (C) 2019  Ministerio de Hacienda y Función Pública, 
+Copyright (C) 2019  Ministerio de Hacienda y FunciÃ³n PÃºblica, 
 This program is licensed and may be used, modified and redistributed under the terms
 of the European Public License (EUPL), either version 1.2 or (at your option) any later 
 version as soon as they are approved by the European Commission.

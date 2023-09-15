@@ -1,5 +1,5 @@
 <!--
-Copyright (C) 2017 MINHAFP, Ministerio de Hacienda y Funci髇 P鷅lica, 
+Copyright (C) 2017 MINHAFP, Ministerio de Hacienda y Funci贸n P煤blica, 
 This program is licensed and may be used, modified and redistributed under the terms
 of the European Public License (EUPL), either version 1.2 or (at your option) any later 
 version as soon as they are approved by the European Commission.
@@ -261,7 +261,7 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 							<p id="checksimresult-ok" class="hidden">
 								<span class="bold"><bean:message key="conectividad.url.comprobada.estado" />: </span> <img src="../img/up.png"
 									alt="Imagen flecha verde hacia arriba"
-									title="Comporbaci髇 del servicio correcta" />
+									title="Comporbaci贸n del servicio correcta" />
 							</p>
 
 
@@ -269,7 +269,7 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 							<p id="checksimresult-ko" class="hidden">
 								<span class="bold"><bean:message key="conectividad.url.comprobada.estado" />: </span> <img src="../img/down.png"
 									alt="Imagen flecha roja hacia abajo"
-									title="Comporbaci髇 del servicio incorrecta" />
+									title="Comporbaci贸n del servicio incorrecta" />
 							</p>
 							<p id="checksimresult-error" class="hidden">
 								<span class="bold">Error: </span> <span
@@ -331,12 +331,12 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 									<p id="checkurlresult-ok" class="hidden">
 										<span class="bold"><bean:message key="conectividad.url.oaw"/> :</span>&nbsp;<img
 											src="../img/up.png" alt="Imagen flecha verde hacia arriba"
-											title="Comporbaci髇 del servicio correcta" />
+											title="Comporbaci贸n del servicio correcta" />
 									</p>
 									<p id="checkurlresult-ko" class="hidden">
 										<span class="bold"><bean:message key="conectividad.url.oaw"/>:</span>&nbsp; <img
 											src="../img/down.png" alt="Imagen flecha roja hacia abajo"
-											title="Comporbaci髇 del servicio incorrecta" /> <span
+											title="Comporbaci贸n del servicio incorrecta" /> <span
 											id="checkurlresult-error" class="hidden">&nbsp;<span
 											class="bold">Error:</span>&nbsp; <span
 											id="checkurlresult-error-detalle"></span></span>
@@ -351,14 +351,14 @@ you may find it at http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:3201
 									<p id="checkurlresult-ok-proxy" class="hidden">
 										<span class="bold"><bean:message key="conectividad.url.js"/>:</span>&nbsp;<img
 											src="../img/up.png" alt="Imagen flecha verde hacia arriba"
-											title="Comporbaci髇 del servicio correcta" />
+											title="Comporbaci贸n del servicio correcta" />
 									</p>
 
 									<p id="checkurlresult-ko-proxy" class="hidden">
 										<span class="bold"><bean:message key="conectividad.url.js"/>:</span>&nbsp;
 										<img src="../img/down.png"
 											alt="Imagen flecha roja hacia abajo"
-											title="Comporbaci髇 del servicio incorrecta" /><span
+											title="Comporbaci贸n del servicio incorrecta" /><span
 											id="checkurlresult-error-proxy" class="hidden">&nbsp;<span
 											class="bold">Error:</span>&nbsp; <span
 											id="checkurlresult-error-detalle-proxy"></span></span>
