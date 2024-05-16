@@ -94,6 +94,9 @@ We appreciate your collaboration on this project. Feel free to report any issues
 
 Thank you!
 
+## Link to TFM Documentation
+link: https://ebuah.uah.es/dspace/bitstream/handle/10017/58094/TFM_Casabella_Martinez_2023.pdf?sequence=1&isAllowed=y
+
 
 # OLD README => OAW
 Rastreador Observatorio de Accesibilidad Web
